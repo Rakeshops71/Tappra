@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Countdown and Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+
+    <section class="countdown-container">
+      <h2>Flight Countdown</h2>
+      <div id="countdown" class="countdown">
+        <div class="time-block">
+          <span id="days">--</span>
+          <small>Days</small>
+        </div>
+        <div class="time-block">
+          <span id="hours">--</span>
+          <small>Hours</small>
+        </div>
+        <div class="time-block">
+          <span id="minutes">--</span>
+          <small>Minutes</small>
+        </div>
+        <div class="time-block">
+          <span id="seconds">--</span>
+          <small>Seconds</small>
+        </div>
+      </div>
+      <p class="quote" id="quote-countdown">"Loading a quote..."</p>
+    </section>
+
+ 
+    <section class="progress-container">
+      <h2>Journey Progress</h2>
+      <div class="progress-bar-container">
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+        <div class="milestones">
+          <div class="milestone">
+            <div class="milestone-label">Bangalore</div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-label">In Transit</div>
+          </div>
+          <div class="milestone">
+            <div class="milestone-label">Bhubaneswar</div>
+          </div>
+        </div>
+      </div>
+      <p id="progress-message">Waiting for the journey to begin! 🌏</p>
+
+    </section>
+
+    <div class="animated-elements">
+      <img class="clouds" src="cloud.png" alt="Clouds">
+      <img class="bird" src="bird.png" alt="Bird" id="bird">
+      <img class="balloon" src="balloon.png" alt="Balloon" id="balloon">
+      <img class="airplane" src="airplane.png" alt="Airplane" id="airplane">
+    </div>
+
+    <!-- Cute Quotes -->
+    <div class="quotes-section">
+     
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
